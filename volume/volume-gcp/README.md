@@ -4,7 +4,7 @@
 **Assumptions**
 - kuberenetes installation type is kubeadm 
 
-### steps 
+### steps ###
 
 - The Kubernetes cloud-config file needs to be configured. The file can be found at /etc/kubernetes/cloud-config and the following content is enough to get the cloud provider to work and if file is not present create the same. file should be configured in all the nodes:
 
